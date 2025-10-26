@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.DS_Store
+.hidb
+
+# Environment
+.env
+.env.local
+.env.dev
+.env.test
+.env.prod
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+
+# Data files that might contain sensitive information
+*.key
+*.pem
+*.crt
+*.cert
+
+# Uploads - these may contain user content
+uploads/
+data/images.json
+data/images.json.backup
+data/interactions.json
+data/users.json
+
+# Debug and temporary files
+*.tmp
+*.temp
+debug-images.js
+
+# Backend node_modules if it exists
+hora-liker-app/backend/node_modules/
+hora-liker-app/frontend/node_modules/
