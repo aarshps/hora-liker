@@ -61,8 +61,10 @@ build/
 # Uploads - these may contain user content
 uploads/
 
-# Data directory - all JSON files in data subdirectory
+# Data directory - all JSON files and backup files in data subdirectory
 **/data/*.json
+**/data/*.json.backup
+**/data/*.backup
 
 # Debug and temporary files
 *.tmp
